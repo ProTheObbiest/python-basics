@@ -1,0 +1,4 @@
+Average temperature: 14.857142857142858
+Hottest day is Saturday with temperature of 19
+Coldest day is Wednesday with temperature of 11
+Amount of days that exceed temperature of 15: 3

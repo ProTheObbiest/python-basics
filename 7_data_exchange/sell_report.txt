@@ -1,0 +1,7 @@
+Milk: 25.0
+Bread: 27.0
+Cheese: 25.200000000000003
+Apple: 24.0
+Yogurt: 10.8
+Total 112.0
+Highest is Bread with value of 27.0

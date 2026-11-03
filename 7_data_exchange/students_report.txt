@@ -1,0 +1,7 @@
+Mari 4.25
+Jüri 3.5
+Anna 4.8
+Peeter 2.67
+Kati 4.67
+Martin 3.67
+Class Average 3.92

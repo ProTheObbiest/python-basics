@@ -1,0 +1,15 @@
+STUDENT RESULTS REPORT
+----------------------------------------
+Mari       Average: 85.00  Grade: 4
+Jüri       Average: 61.67  Grade: 3
+Anna       Average: 91.33  Grade: 5
+Peeter     Average: 46.67  Grade: 1
+Kati       Average: 81.67  Grade: 4
+Martin     Average: 69.67  Grade: 3
+Laura      Average: 93.33  Grade: 5
+Rasmus     Average: 50.00  Grade: 2
+----------------------------------------
+Class average: 72.42
+Best student: Laura
+Lowest performing student: Peeter
+Students with passing grade (3+): 6
