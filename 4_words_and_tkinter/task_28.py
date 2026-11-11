@@ -12,6 +12,6 @@ canvas.create_line(50, 180, 250, 180, fill="green", width=4)
 
 canvas.create_oval(300, 200, 500, 280, fill="yellow")
 
-canvas.create_text(300, 340, text="My figures", font=("Arial", 18))
+canvas.create_text(300, 340, text="Minu kujundid", font=("Arial", 18))
 
 root.mainloop()

@@ -12,5 +12,5 @@ for word in words:
         length2 = len(word)
         shortest_word = word
 
-print(longest_word + ' - Longest Word')
-print(shortest_word + ' - Shortest Word')
+print(longest_word + ' - longest word with length of: ' + str(length))
+print(shortest_word + ' - shortest word with length of: ' + str(length2))

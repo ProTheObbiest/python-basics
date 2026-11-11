@@ -12,5 +12,5 @@ hours = int(time // 60)
 minutes = int(time % 60)
 print("The time it takes to get to school is: " + str(hours) + " hours and " + str(minutes) + " minutes.")
 unrounded_hours = time / 60
-speed = length / unrounded_hours
+speed = length / unrounded_hours / 1000
 print("Your speed to school is: " + str(speed) + " kilometers per hour.")

@@ -11,9 +11,11 @@ elif operator == "-":
 elif operator == "*":
     result = first_number * second_number
     print("Result: " + str(result))
-else:
+elif operator == "/":
     if second_number != 0:
         result = first_number / second_number
         print("Result: " + str(result))
     else:
         print("Error: Division by zero is not allowed.")
+else:
+    print("Error: Invalid operator.")

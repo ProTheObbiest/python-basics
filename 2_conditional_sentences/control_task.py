@@ -8,32 +8,30 @@ grade = 0
 
 if points >= 90 and points <= 100:
     grade = 5
-elif points >= 75 and points < 89:
+elif points >= 75 and points <= 89:
     grade = 4
-elif points >= 50 and points < 74:
+elif points >= 50 and points <= 74:
     grade = 3
-elif points >= 20 and points < 49:
+elif points >= 20 and points <= 49:
     grade = 2
-elif points >= 0 and points < 19:
+elif points >= 0 and points <= 19:
     grade = 1
 
 print('Student:', name)
 print('Grade:', grade)
 
-if submitted.lower() != 'yes':
+if submitted.lower() != 'yes' or misses > 10 or grade < 3:
     complete = False
-    print('You did not submit the assignment.')
-else:
+
+if submitted.lower() == 'yes':
     print('You submitted the assignment.')
+else:
+    print('You did not submit the assignment.')
 
 if misses > 10:
-    complete = False
     print('You have too many misses.')
 else:
     print('You have a valid number of misses.')
-
-if grade < 3:
-    complete = False
 
 if complete:
     print('You have passed the course.')

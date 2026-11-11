@@ -37,30 +37,37 @@ def find_average(scores):
         return 'N/A'
 
 def find_best(names, scores):
-    name = ""
-    best = 0
-    for i in range(len(names)):
-        if scores[i] > best:
-            best = scores[i]
-            name = names[i]
-
-    if len(scores) > 0:
-        return name + " (" + str(best) + " p)"
-    else:
+    if not scores:
         return "N/A"
+    
+    max_score = max(scores)
+    
+    names_str = ""
+    for i in range(len(scores)):
+        if scores[i] == max_score:
+            if names_str == "":
+                names_str = names[i]
+            else:
+                names_str += ", " + names[i]
+                
+    return names_str + " (" + str(max_score) + " p)"
+
 
 def find_worst(names, scores):
-    name = ""
-    worst = 999
-    for i in range(len(names)):
-        if scores[i] < worst:
-            worst = scores[i]
-            name = names[i]
-
-    if len(scores) > 0:
-        return name + " (" + str(worst) + " p)"
-    else:
+    if not scores:
         return "N/A"
+    
+    min_score = min(scores)
+    
+    names_str = ""
+    for i in range(len(scores)):
+        if scores[i] == min_score:
+            if names_str == "":
+                names_str = names[i]
+            else:
+                names_str += ", " + names[i]
+                
+    return names_str + " (" + str(min_score) + " p)"
 
 def display_students(names, scores):
     if len(scores) > 0:

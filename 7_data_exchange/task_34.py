@@ -88,7 +88,7 @@ while True:
             i += 1
     elif action == 5:
         avg, appearance = getstats()
-        with open(grade_file_path, "w", encoding="utf-8") as file:
+        with open(report_file_path, "w", encoding="utf-8") as file:
             file.write(str(avg) + "\n")
             string = ""
             i = 1

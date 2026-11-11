@@ -7,7 +7,7 @@ odd_numbers = 0
 last_number = -1
 
 while last_number != 0:
-    last_number = float(input("Enter a number (0 to stop): "))
+    last_number = int(input("Enter a number (0 to stop): "))
     if last_number != 0:
         sum += last_number
         numbers += 1
@@ -26,7 +26,7 @@ if numbers > 0:
 print("\nRESULTS:\n")
 print("Amount of numbers: " + str(numbers))
 print("Sum: " + str(sum))
-print("Average number: " + str(average))
+print("Average number: " + str(round(average*100)/100))
 print("Positive numbers: " + str(positive_numbers))
 print("Negative numbers: " + str(negative_numbers))
 print("Even numbers: " + str(even_numbers))

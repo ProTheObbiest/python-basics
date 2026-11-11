@@ -5,7 +5,7 @@ if len(username) >= 5 and len(username) <= 15:
         valid = True
         i = 0
         while i < len(username):
-            if username[i] not in "abcdefghijklmnopqrstuvwxyz0123456789":
+            if username[i].lower() not in "abcdefghijklmnopqrstuvwxyz0123456789":
                 valid = False
                 break
             i += 1

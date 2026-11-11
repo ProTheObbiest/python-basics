@@ -6,5 +6,7 @@ if first_number > second_number and first_number > third_number:
     print("Largest number is " + str(first_number))
 elif second_number > first_number and second_number > third_number:
     print("Largest number is " + str(second_number))
-else:
+elif third_number > first_number and third_number > second_number:
     print("Largest number is " + str(third_number))
+elif first_number == second_number and second_number == third_number and first_number == third_number:
+    print("All numbers are equal.")

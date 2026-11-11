@@ -1,2 +1,6 @@
-4.0
-0;1;1;2;3
+Mari 5
+Jüri 3
+Anna 4
+Peeter 2
+Kati 5
+Martin 4

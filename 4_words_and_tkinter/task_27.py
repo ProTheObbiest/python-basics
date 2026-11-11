@@ -1,8 +1,8 @@
 import tkinter as tk
 
-width_ = int(input("Enter width: "))
-height_ = int(input("Enter height: "))
-bg_ = input("Enter background color: ")
+width_ = 600
+height_ = 400
+bg_ = "white"
 
 aken = tk.Tk()
 aken.title("Minu esimene graafika")

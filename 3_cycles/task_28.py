@@ -4,7 +4,7 @@ i = 0
 sum = 0
 while i < 10:
     num = randint(1, 6)
-    print(str(i) + ". dice: " + str(num))
+    print(str(i+1) + ". dice: " + str(num))
     sum += num
     i += 1
 
